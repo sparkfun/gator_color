@@ -357,7 +357,7 @@
 <wire x1="56.134" y1="40.005" x2="81.407" y2="40.005" width="0.2032" layer="20"/>
 <wire x1="81.407" y1="40.005" x2="81.407" y2="41.275" width="0.2032" layer="20"/>
 <wire x1="81.407" y1="41.275" x2="56.134" y2="41.275" width="0.2032" layer="20"/>
-<text x="49.53" y="-8.89" size="1.778" layer="51">M. West</text>
+<text x="49.53" y="-8.89" size="1.778" layer="51" font="vector">M. West</text>
 <dimension x1="1.27" y1="1.27" x2="0.56553125" y2="0.213296875" x3="-3.761128125" y3="-6.276696875" textsize="1.778" layer="47" dtype="radius" unit="inch"/>
 <dimension x1="109.22" y1="1.27" x2="110.118025" y2="0.371975" x3="111.82345625" y3="-8.95345625" textsize="1.778" layer="47" dtype="radius" unit="inch"/>
 <hole x="54.737" y="51.816" drill="0.381"/>
@@ -452,8 +452,9 @@
 <wire x1="96.52" y1="4.445" x2="91.186" y2="4.445" width="0.2032" layer="20"/>
 <wire x1="97.79" y1="5.715" x2="97.79" y2="34.29" width="0.2032" layer="20"/>
 <wire x1="91.186" y1="35.56" x2="96.52" y2="35.56" width="0.2032" layer="20"/>
-<text x="4.445" y="-24.13" size="1.778" layer="51">Black PCB</text>
-<text x="109.22" y="0" size="1.27" layer="16" font="vector" ratio="20" rot="MR0">v10</text>
+<text x="4.445" y="-24.13" size="1.778" layer="51">Black Gloss PCB</text>
+<text x="109.22" y="0" size="1.778" layer="16" font="vector" ratio="20" rot="MR0">v10</text>
+<text x="48.26" y="-11.43" size="1.778" layer="51" font="vector">A. England</text>
 </plain>
 <libraries>
 <library name="SparkFun-LED">
@@ -832,6 +833,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="-8.89" x2="0" y2="0" width="0.2032" layer="51"/>
 <wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
 <text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
+</package>
+<package name="REVISION">
+<description>&lt;h3&gt;"Revision By" Text - tDoc&lt;/h3&gt;
+&lt;p&gt;Preceding text for revisor documentation.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;REVISION&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<text x="0" y="0" size="1.778" layer="51" font="vector">Revision By: </text>
 </package>
 </packages>
 </library>
@@ -6541,9 +6549,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="DIO-09955" x="90.17" y="19.685" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="WHITE" x="90.17" y="19.685" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D4" library="SparkFun-LED" package="LED-1206" value="GREEN" x="76.2" y="19.685">
-<attribute name="PROD_ID" value="DIO-00862" x="76.2" y="19.685" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="GREEN" x="76.2" y="19.685" size="1.778" layer="27" display="off"/>
+<element name="D4" library="SparkFun-LED" package="LED-1206" value="BLUE" x="76.2" y="19.685">
+<attribute name="PROD_ID" value="DIO-09911" x="76.2" y="19.685" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="BLUE" x="76.2" y="19.685" size="1.778" layer="27" display="off"/>
 </element>
 <element name="D5" library="SparkFun-LED" package="LED-1206" value="Yellow" x="48.26" y="19.685">
 <attribute name="PROD_ID" value="DIO-09909" x="48.26" y="19.685" size="1.778" layer="27" display="off"/>
@@ -6567,11 +6575,11 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="R4" library="SparkFun-Resistors" package="0603" value="150" x="80.645" y="19.685" rot="R90">
 <attribute name="PROD_ID" value="RES-11028" x="80.645" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R5" library="SparkFun-Resistors" package="0603" value="150" x="52.705" y="19.685" rot="R90">
-<attribute name="PROD_ID" value="RES-11028" x="52.705" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R5" library="SparkFun-Resistors" package="0603" value="330" x="52.705" y="19.685" rot="R90">
+<attribute name="PROD_ID" value="RES-00818" x="52.705" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R6" library="SparkFun-Resistors" package="0603" value="330" x="66.675" y="19.685" rot="R90">
-<attribute name="PROD_ID" value="RES-00818" x="66.675" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R6" library="SparkFun-Resistors" package="0603" value="150" x="66.675" y="19.685" rot="R90">
+<attribute name="PROD_ID" value="RES-11028" x="66.675" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R7" library="SparkFun-Resistors" package="0603" value="330" x="24.765" y="19.685" rot="R90">
 <attribute name="PROD_ID" value="RES-00818" x="24.765" y="19.685" size="1.778" layer="27" rot="R90" display="off"/>
@@ -6592,17 +6600,17 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$30" library="SparkFun-Connectors" package="TAB_GATOR_MINI" value="TAB_GATOR_MINI" x="62.23" y="50.165" rot="R180"/>
 <element name="U$33" library="SparkFun-Connectors" package="TAB_GATOR_MINI" value="TAB_GATOR_MINI" x="20.32" y="33.02" rot="R180"/>
 <element name="U$34" library="SparkFun-Connectors" package="TAB_GATOR_MINI" value="TAB_GATOR_MINI" x="34.29" y="50.165" rot="R180"/>
-<element name="U$36" library="gatorbytes" package="BLUE4" value="" x="44.831" y="37.465"/>
+<element name="U$36" library="gatorbytes" package="BLUE4" value="" x="73.406" y="37.465"/>
 <element name="U$37" library="gatorbytes" package="BLUE4" value="" x="71.755" y="16.51" rot="R90"/>
-<element name="U$39" library="gatorbytes" package="GREEN3" value="" x="72.39" y="37.465"/>
+<element name="U$39" library="gatorbytes" package="GREEN3" value="" x="58.42" y="37.465"/>
 <element name="U$40" library="gatorbytes" package="GREEN3" value="" x="57.785" y="15.875" rot="R90"/>
-<element name="U$41" library="gatorbytes" package="RED2" value="" x="87.63" y="37.465"/>
+<element name="U$41" library="gatorbytes" package="RED2" value="" x="31.623" y="37.465"/>
 <element name="U$42" library="gatorbytes" package="RED2" value="" x="29.845" y="17.145" rot="R90"/>
-<element name="U$44" library="gatorbytes" package="WHITE6" value="" x="58.42" y="37.465"/>
+<element name="U$44" library="gatorbytes" package="WHITE6" value="" x="86.36" y="37.465"/>
 <element name="U$45" library="gatorbytes" package="WHITE6" value="" x="16.51" y="37.465"/>
 <element name="U$46" library="gatorbytes" package="WHITE6" value="" x="85.725" y="15.875" rot="R90"/>
 <element name="U$47" library="gatorbytes" package="WHITE6" value="" x="15.875" y="15.875" rot="R90"/>
-<element name="U$48" library="gatorbytes" package="YELLOW5" value="" x="29.591" y="37.465"/>
+<element name="U$48" library="gatorbytes" package="YELLOW5" value="" x="43.561" y="37.465"/>
 <element name="U$49" library="gatorbytes" package="YELLOW5" value="" x="43.815" y="15.24" rot="R90"/>
 <element name="U$53" library="gatorbytes" package="#8" value="" x="95.885" y="24.765" rot="R180"/>
 <element name="U$54" library="gatorbytes" package="#9" value="" x="95.885" y="14.605" rot="R180"/>
@@ -6685,6 +6693,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$43" library="buzzard_labels (6)" package="POWER2" value="" x="-0.254" y="45.847"/>
 <element name="U$51" library="buzzard_labels (9)" package="GATOR#COLOR0" value="" x="60.579" y="2.286"/>
 <element name="U$4" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="" x="3.175" y="-12.065"/>
+<element name="LOGO8" library="SparkFun-Aesthetics" package="REVISION" value="REVISION" x="33.655" y="-11.43"/>
 </elements>
 <signals>
 <signal name="3.3V">
@@ -6716,7 +6725,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="62.23" y1="27.305" x2="62.23" y2="28.194" width="0.508" layer="1"/>
 <wire x1="76.2" y1="27.305" x2="76.2" y2="24.13" width="0.508" layer="1"/>
 <wire x1="88.8425" y1="19.685" x2="88.8425" y2="23.495" width="0.508" layer="1"/>
-<via x="26.035" y="41.783" extent="1-16" drill="0.381"/>
 <wire x1="32.258003125" y1="38.1" x2="26.035003125" y2="38.1" width="0.4064" layer="16"/>
 <wire x1="26.035" y1="38.1" x2="21.59" y2="38.1" width="0.4064" layer="16"/>
 <wire x1="33.019996875" y1="38.1" x2="34.29" y2="38.1" width="0.4064" layer="16"/>
@@ -6725,7 +6733,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="62.23" y1="38.1" x2="76.2" y2="38.1" width="0.4064" layer="16"/>
 <wire x1="20.32" y1="45.339" x2="26.035" y2="45.339" width="0.4064" layer="16"/>
 <wire x1="26.035" y1="45.339" x2="34.29" y2="45.339" width="0.4064" layer="16"/>
-<wire x1="26.035" y1="41.783" x2="26.035" y2="45.339" width="0.4064" layer="16"/>
 <wire x1="34.29" y1="45.339" x2="48.26" y2="45.339" width="0.4064" layer="1"/>
 <contactref element="U$32" pad="P1"/>
 <wire x1="14.351" y1="45.339" x2="20.32" y2="45.339" width="0.4064" layer="1"/>
@@ -6779,7 +6786,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="76.2" y1="24.13" x2="74.7" y2="22.63" width="0.508" layer="1"/>
 <wire x1="74.7" y1="22.63" x2="74.7" y2="19.685" width="0.508" layer="1"/>
 <wire x1="48.26" y1="24.1875" x2="48.26" y2="24.8225" width="0.508" layer="1"/>
-<wire x1="26.035" y1="41.783" x2="26.035003125" y2="41.782996875" width="0.4064" layer="16"/>
+<wire x1="26.035003125" y1="41.782996875" x2="26.035" y2="41.783" width="0.4064" layer="16"/>
 <wire x1="26.035003125" y1="41.782996875" x2="26.035003125" y2="38.1" width="0.4064" layer="16"/>
 <wire x1="20.32" y1="36.83" x2="20.32" y2="28.194" width="0.4064" layer="16"/>
 <wire x1="20.32" y1="28.194" x2="20.32" y2="31.115" width="0.4064" layer="1"/>
@@ -6793,6 +6800,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="62.23" y1="38.1" x2="62.23" y2="27.305" width="0.4064" layer="1"/>
 <wire x1="34.29" y1="38.1" x2="34.29" y2="28.194" width="0.4064" layer="16"/>
 <wire x1="34.29" y1="28.194" x2="34.29" y2="38.1" width="0.4064" layer="1"/>
+<wire x1="26.035" y1="41.783" x2="26.035" y2="45.339" width="0.4064" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="R2" pad="1"/>
@@ -6836,12 +6844,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="63.5" y1="13.081" x2="62.23" y2="11.811" width="0.508" layer="1"/>
 <wire x1="80.645" y1="16.256" x2="76.2" y2="11.811" width="0.508" layer="1"/>
 <via x="90.17" y="6.223" extent="1-16" drill="0.381"/>
-<via x="62.23" y="6.223" extent="1-16" drill="0.381"/>
 <wire x1="102.20660625" y1="2.4892" x2="34.1376" y2="2.4892" width="0.4064" layer="16"/>
 <wire x1="34.29" y1="2.54" x2="21.59" y2="2.54" width="0.4064" layer="16"/>
 <wire x1="21.59" y1="2.54" x2="20.32" y2="3.81" width="0.4064" layer="16"/>
 <wire x1="90.17" y1="6.223" x2="90.17" y2="2.54" width="0.4064" layer="16"/>
-<wire x1="62.23" y1="6.223" x2="62.23" y2="2.54" width="0.4064" layer="16"/>
 <wire x1="82.423" y1="41.783" x2="82.423" y2="45.339" width="0.4064" layer="16"/>
 <wire x1="82.423" y1="45.339" x2="75.565" y2="45.339" width="0.4064" layer="16"/>
 <contactref element="U$38" pad="P1"/>
@@ -6909,6 +6915,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="20.32" y1="3.81" x2="20.32" y2="11.811" width="0.4064" layer="16"/>
 <wire x1="34.29" y1="2.54" x2="34.29" y2="11.811" width="0.4064" layer="16"/>
 <wire x1="34.29" y1="11.811" x2="34.29" y2="6.223" width="0.4064" layer="1"/>
+<wire x1="62.23" y1="2.54" x2="62.23" y2="6.985" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="D2" pad="C"/>
@@ -7036,6 +7043,29 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="4,16,e1531ac27343735d"/>
 <approved hash="1,20,8fea4bd64bf78fcb"/>
 <approved hash="1,20,bfe803d403f7bfcb"/>
+<approved hash="4,1,0769f3471eba1e3f"/>
+<approved hash="4,1,a101415bbbdeaf2f"/>
+<approved hash="4,1,fae7800b65f96be9"/>
+<approved hash="4,1,880af2918713850c"/>
+<approved hash="4,1,7a4381d17450744d"/>
+<approved hash="4,1,79da28d8d2c57848"/>
+<approved hash="4,16,8b93599921868b08"/>
+<approved hash="4,16,7a4381d17450744d"/>
+<approved hash="4,16,a200415bbbdeae2e"/>
+<approved hash="4,16,6a7328715c606a9e"/>
+<approved hash="1,20,62e942d542f762cb"/>
+<approved hash="1,20,83eacfd6cff783cb"/>
+<approved hash="1,20,2a7e024202742a48"/>
+<approved hash="1,20,827dce41ce748248"/>
+<approved hash="1,20,4a7e764276744a48"/>
+<approved hash="1,20,ca7df641f675ca49"/>
+<approved hash="1,20,233f4f034f9723ab"/>
+<approved hash="1,20,4b3d7701489174ad"/>
+<approved hash="1,20,a685fab9fab5a689"/>
+<approved hash="1,20,a925f519f511a92d"/>
+<approved hash="1,20,7326831a8312732e"/>
+<approved hash="1,20,ad8745bb45b7ad8b"/>
+<approved hash="1,20,2cff44c344f72ccb"/>
 </errors>
 </board>
 </drawing>
