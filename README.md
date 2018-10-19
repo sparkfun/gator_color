@@ -14,7 +14,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/gatorcolor-hookup-guide)** - Basic hookup guide for the gator:color.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/gatorcolor-protosnap-hookup-guide)** - Basic hookup guide for the gator:color.
 
 Product Versions
 ----------------
