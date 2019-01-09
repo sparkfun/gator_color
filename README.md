@@ -8,7 +8,7 @@ The gator:color a smattering of LEDs into an alligator clippable format for use 
 
 Repository Contents
 -------------------
-* **/Firmware** - Example code used in the gator:color. While they are compiled HEX codes, you can modify the example code once they are imported into MakeCode editor.
+* **/Firmware** - Example code used with the gator:color. While they are compiled HEX codes, you can modify the example code once they are imported into MakeCode editor.
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd)
 
